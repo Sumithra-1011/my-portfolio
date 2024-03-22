@@ -323,7 +323,7 @@ export default function Sidenavbar() {
                   </b>
                   <div>
                     <div className="d-flex justify-content-center  aligin-item-center  mt-5 mb-4 flex-column flex-sm-row">
-                      <div className="bt">
+                      <div className="topbtn">
                         <button class="button me-sm-4 mb-4 mb-sm-0">
                           <a href={resume} download="resume">
                             Download CV

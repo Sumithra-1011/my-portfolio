@@ -202,14 +202,12 @@
   transition: all 0.2s ease;
 }
 @media only screen and (max-width: 576px) {
- .bt{
-  /* background-color: #fff; */
+ .topbtn{
   display: flex;
   flex-direction: column;
   align-items: center;
  }
  .offcanhead{
-  /* background-color: #00b87b !important; */
   width: 280px !important;
  }
 
