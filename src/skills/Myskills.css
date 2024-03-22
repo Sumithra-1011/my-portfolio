@@ -1,0 +1,178 @@
+h2 {
+  color: var(--primary);
+  font-size:30px;
+  font-weight: 600;
+}
+.round {
+  width: 10px;
+  height: 10px;
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+}
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary);
+  /* color:goldenrod; */
+  /* border: 2px solid; */
+}
+
+/* Proseress bar */
+.skill li {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+}
+.skill h3 {
+  text-transform: uppercase;
+  color: var(--light);
+  font-size: 20px;
+  margin: 5px;
+}
+.skill {
+  /* border:2px solid; */
+  /* padding-bottom: 20px; */
+  margin: 70px 0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar {
+  background: #353b48;
+  display: block;
+  height: 18px;
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
+  border-radius:10px;
+  margin-top: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.bar span {
+  height: 18px;
+  float: left;
+  background-color: goldenrod;
+  /* background: linear-gradient(135deg,var(--primary),#10ac84  100%); */
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 80%;
+  animation: css 3s;
+}
+.javascript {
+  width:75%;
+  animation: javascript 3s;
+}
+
+.bootstrap {
+  width:80%;
+  animation: bootstrap 3s;
+}
+.react {
+  width: 70%;
+  animation: react 3s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+    animation: html;
+  }
+  100%{
+    width: 90%;
+    animation: html;
+  }
+}
+@keyframes css {
+    0% {
+      width: 0%;
+      animation: css;
+    }
+    100%{
+      width: 90%;
+      animation: css;
+    }
+  }
+  @keyframes bootstrap {
+    0% {
+      width: 0%;
+      animation: bootstrap;
+    }
+    100%{
+      width: 80%;
+      animation:bootstrap;
+    }
+  }
+  @keyframes javascript {
+    0% {
+      width: 0%;
+      animation: javascript;
+    }
+    100%{
+      width: 75%;
+      animation: javascript;
+    }
+  }
+  @keyframes react {
+    0% {
+      width: 0%;
+      animation:react;
+    }
+    100%{
+      width:70%;
+      animation: react;
+    }
+  }
+  .skillheading{
+    text-align: center;
+    /* color: goldenrod; */
+    color:var(--primary);
+    font-weight: 600;
+    font-size:1.6rem;
+    margin-bottom:50px;
+  }
+  .overouter{
+    background-color:var(--dark);
+    color: white;
+    padding: 10px;
+    height: 260px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  .outer{
+    border-radius: 50%;
+    width: 150px !important;
+    height: 150px;
+    border-radius: 2px solid blue;
+    background-color:var(--dark);
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 5px; */
+  
+    position: relative;
+   
+  }
+  .let{
+    position: absolute;
+    top:60px;
+    left:50px;
+    color: white;
+    z-index: 10;
+ 
+  }
+  .inner{
+    position: absolute;
+    top:15px;
+    left:15px;
+    color: white;
+    width: 120px !important;
+    height: 120px !important;
+    background-color: var(--dark);
+    border-radius: 50%;
+    box-shadow: inset 8px 8px 20px -1px rgba(0, 0, 0, 0.2),
+    inset -8px -8px 20px -1px rgba(255, 255, 255, 0.1);
+
+
+  }

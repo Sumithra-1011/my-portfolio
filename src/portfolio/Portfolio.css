@@ -1,0 +1,111 @@
+*{
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+.cad{
+    margin-top: 50px;
+    background-color: var(--dark);
+    border-radius: 10px;
+    border: none !important;
+    transform: scale(1);
+    transition: transform 0.9s;
+    margin-bottom: 0px !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.cardimg{
+    height: 250px;
+    border-radius: 10px;
+}
+.image{
+    width:100% !important;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardbody p{
+    color:var(--primary);
+    font-size:1.5rem;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.iconright{
+    display: none;
+}
+.cad:hover p{
+    color: goldenrod;
+}
+.cad:hover .iconright{
+    display: inline-block;
+}
+.cad:hover{
+    background-color:#2f3f50 ;
+    transform: scale(1.1);
+}
+/* **** offcanvas ******* */
+.offcanvas{
+    padding: 20px;
+    background-color: var(--dark);
+    margin: 100px;
+    height: auto !important;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+}
+.offcanvaImagediv{
+    padding:15px;
+    border-radius: 10px;
+    /* width: 550px; */
+    height: 350px; 
+    background-color: var(--dark);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.offcanvas img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+.offcanvaPara{
+    padding-top: 15px;
+}
+.projectbtn a{
+    color: var(--primary);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 3px solid var(--primary) ;
+   line-height: 28px;
+   margin-top: 20px;
+}
+.projectbtn a:hover{
+background-color: var(--primary);
+color: var(--light);
+}
+
+
+@media screen and (max-width:992px) {
+    .offcanvas{
+        margin: 80px;
+        /* background-color: blue; */
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    .offcanvas{
+        margin:20px;
+        /* background-color:red; */
+    }
+    
+}
+@media screen and (max-width:576px){
+    .offcanvaImagediv{
+        height: 280px;
+    }
+}
