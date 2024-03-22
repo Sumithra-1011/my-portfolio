@@ -605,9 +605,9 @@ export default function Portfolio() {
       {/* fiveth project end */}
 
       {/* sixth project start */}
-      <div  data-aos="zoom-in">
+      <div  data-aos="zoom-in" style={{marginBottom:"40px"}}>
         <Card
-          className=" cad col-11 col-lg-9 mx-auto p-4 mb-5"
+          className=" cad col-11 col-lg-9 mx-auto p-4" 
           onClick={() => Setcurencyshow(!curencyshow)}
         >
           <div className="">

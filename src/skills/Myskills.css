@@ -13,8 +13,6 @@ h2 {
   width: 80px;
   height: 3px;
   background-color: var(--primary);
-  /* color:goldenrod; */
-  /* border: 2px solid; */
 }
 
 /* Proseress bar */
@@ -30,16 +28,13 @@ h2 {
   margin: 5px;
 }
 .skill {
-  /* border:2px solid; */
-  /* padding-bottom: 20px; */
-  margin: 70px 0;
+  margin-bottom: 50px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .bar {
   background: #353b48;
   display: block;
   height: 18px;
-  /* border: 1px solid rgba(0, 0, 0, 0.3); */
   border-radius:10px;
   margin-top: 10px;
   overflow: hidden;
@@ -53,7 +48,6 @@ h2 {
   height: 18px;
   float: left;
   background-color: goldenrod;
-  /* background: linear-gradient(135deg,var(--primary),#10ac84  100%); */
 }
 .html {
   width: 90%;
@@ -149,10 +143,7 @@ h2 {
     border-radius: 2px solid blue;
     background-color:var(--dark);
     box-shadow:0 14px 28px rgba(0, 0, 0, 0.2),0 10px 10px rgba(0, 0, 0, 0.2);
-    /* padding: 5px; */
-  
     position: relative;
-   
   }
   .let{
     position: absolute;
@@ -173,6 +164,4 @@ h2 {
     border-radius: 50%;
     box-shadow: inset 8px 8px 20px -1px rgba(0, 0, 0, 0.2),
     inset -8px -8px 20px -1px rgba(255, 255, 255, 0.1);
-
-
   }

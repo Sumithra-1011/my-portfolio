@@ -27,7 +27,6 @@ import "aos/dist/aos.css";
 import { HashLink as Link } from "react-router-hash-link";
 import ScrollToTop from "react-scroll-to-top";
 
-
 export default function Sidenavbar() {
   const [type] = useTypewriter({
     words: ["Frond End Developer", "Web Designer"],
@@ -57,7 +56,7 @@ export default function Sidenavbar() {
   });
 
   useEffect(() => {
-    AOS.init({ duration: 2000, delay: 50 });
+    AOS.init({ duration: 2000, delay:5});
   }, []);
 
   // usign the navbar canvas
@@ -133,12 +132,7 @@ export default function Sidenavbar() {
                       </a>
                     </Link>
                     <Link to="#education" className="text-decoration-none">
-                      <a
-                        className="nav-link
-                      "
-                        aria-current="page"
-                        href="#"
-                      >
+                      <a className="nav-link" aria-current="page">
                         <div className="d-flex justify-content-between fs-6">
                           <div>Education</div>
                           <div className="fs-5 navicon">
@@ -175,10 +169,20 @@ export default function Sidenavbar() {
                 {/* Nav food */}
                 <div className="navfoot d-flex">
                   <div className="linkedin">
-                    <RiLinkedinLine />
+                    <a
+                      href="https://www.linkedin.com/in/sumithrafrontenddeveloper/"
+                      className="text-white"
+                    >
+                      <RiLinkedinLine />
+                    </a>
                   </div>
                   <div className="github">
-                    <FiGithub />
+                    <a
+                      href="https://github.com/Sumithra-1011"
+                      className="text-white"
+                    >
+                      <FiGithub />
+                    </a>
                   </div>
                 </div>
               </div>
