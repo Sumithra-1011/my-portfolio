@@ -121,7 +121,7 @@
   color: var(--light);
 }
 .btn-close {
-  background-image: url(./src/close.png) !important;
+  background-image: url(../assets/close.png) !important;
   border: 2px solid white;
   object-fit: contain;
   object-fit: cover;
