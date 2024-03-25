@@ -50,7 +50,7 @@ export default function Countact() {
           <div className="p-sm-4 p-3  col-lg-10 col-xl-8 col-11 mx-auto mt-5 contact">
             <div>
               <h3 style={{ fontSize: "1.4rem", fontWeight: "600" }}>
-                Countact Info
+                Contact Info
               </h3>
               <ul>
                 <li>
@@ -74,7 +74,7 @@ export default function Countact() {
                     icon={faEnvelope}
                     style={{ marginRight: "8px" }}
                   />
-                  ravisumither65@gmail.com{" "}
+                  ravisumithar65@gmail.com{" "}
                 </li>
                 <li>
                   {" "}
