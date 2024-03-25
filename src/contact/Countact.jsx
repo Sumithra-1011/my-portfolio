@@ -37,7 +37,7 @@ export default function Countact() {
   return (
     <>
       <div>
-        <h2 className="ps-3 p-sm-0">Countact Us</h2>
+        <h2 className="ps-3 p-sm-0">Contact Us</h2>
         <div className="d-flex ps-3 p-sm-0">
           <div className="round"></div>
           <div className="line mt-1 ms-2"></div>
